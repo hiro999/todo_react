@@ -2,7 +2,7 @@ export const IncompleteTodos = (props) => {
   const { incompleteTodos, onClickDone, onClickDelete } = props;
   return (
     <div className="incomplete-area">
-      <p className="title">Incomplete Todo</p>
+      <p className="title">Incomplete Todos</p>
       <ul className="list">
         {incompleteTodos.map((todo, index) => {
           return (

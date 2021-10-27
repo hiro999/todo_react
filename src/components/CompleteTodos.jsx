@@ -2,7 +2,7 @@ export const CompleteTodos = (props) => {
   const { completeTodos, onClickRevert } = props;
   return (
     <div className="complete-area">
-      <p className="title">Complete Todo</p>
+      <p className="title">Complete Todos</p>
       <ul className="list">
         {completeTodos.map((todo, index) => {
           return (
